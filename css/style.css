@@ -16,6 +16,9 @@
     content: '';
     display: table;
 }
+.b-radious{
+    border-radius: 20px;
+}
 /* header */
 #main-header{
     height: 100px ;
@@ -47,8 +50,8 @@ margin-top: 20px;
 .spotlight{
     width: 1080px;
     min-height: 450px;
-    margin: 20px 0;
-    border-radius: 5px;
+    margin: 50px 0;
+    
     background-image: url('../img/banner.jpg');
     background-position: center;
     background-size: cover;
@@ -71,13 +74,13 @@ main{
     width: 1080px; 
     position: relative;
     margin-bottom: 20px;
+    margin-top: 30px;
     
 }
 
 /* secondary header */
 #secondary-header{
-    min-height: 80px ;
-    
+    min-height: 60px;    
 }
 .secondary-title h1{
     font-size: 25px;
@@ -88,34 +91,37 @@ main{
 }
 
 
-
 /* Row */
-.sidebar, .center-main{
-    
-    
+.sidebar, .center-main{  
     float: left;
-    
 }
 .row{
     margin: 0 -10px;
 }
 .sidebar{
     width: calc(25% - 20px);
-    margin: 20px 10px;
+    margin: 10px 10px;
     
+}
+.sidebar section{
+    margin-top: 25px;
+}
+.center-main section{
+    margin-top: 25px;
 }
 section p{
     color:#c3c3c3 ;
+    margin-top: 10px;
 }
 .center-main{
    width:calc(50% - 20px);
-   margin: 20px 10px;
+   margin: 10px 10px;
 }
 
 figure, .overlay{
   width: 100%;
   height: 200px;
-  border-radius: 5px;
+ 
 }
   .left-col{
   background-image: url('../img/img-1.jpg');
@@ -135,6 +141,7 @@ figure, .overlay{
 .overlay{
    background-color: rgba(0, 0, 0,0.2);
 }
+
 /* Footer */
 footer{
     height: 40px;
@@ -149,4 +156,7 @@ footer h5{
 footer h5 span{
     color:red;
 }
+
+
+
 
